@@ -1,5 +1,74 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: rgb(13, 47, 205);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.menu a {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.f {
+    margin-bottom: 20px;
+}
+
+.tx {
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(245, 245, 248);
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 350px;
+    margin-left: 15px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    border-radius: 15px;
+}
+.hi{
+    color: rgb(13, 47, 205);
+    
+}
+body {
+    background-color: rgb(229, 229, 237);
 }
