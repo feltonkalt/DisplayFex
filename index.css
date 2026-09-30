@@ -34,7 +34,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin: 30px;
+    margin: 40px;
 }
 
 p {
@@ -60,11 +60,12 @@ p {
     flex-direction: column;
     height: 280px;
     width: 350px;
-    margin-left: 15px;
+    margin-left: 25px;
     word-wrap: break-word;
     overflow-wrap: break-word;
     border-radius: 15px;
     padding: 25px;
+    box-shadow: 4px 12px 20px rgba(42, 42, 67, 0.221);
 }
 
 .hi {
@@ -78,9 +79,17 @@ p {
     margin-top: 20px;
     height: 50px;
     display: flex;
+    border-radius: 5px;
 
 }
 
+.pr {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    color: rgb(67, 60, 60);
+}
+
 body {
-    background-color: rgb(229, 229, 237);
+    background-color: rgb(239, 240, 245);
 }
